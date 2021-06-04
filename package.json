@@ -57,7 +57,7 @@
       "prettier --write"
     ]
   },
-  "proxy": "http://localhost:8080",
+  "proxy": "https://temp-hpass.duckdns.org/issuance",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
