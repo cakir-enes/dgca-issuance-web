@@ -1,13 +1,15 @@
 [[redirects]]
-from = "/issuance/**"
+from = "/issuance/*"
 to = "https://temp-hpass.duckdns.org/issuance/:splat"
 status = 200
+force = true
 headers = { Access-Control-Allow-Origin = "*"}
 
 [[redirects]]
-from = "https://hpass-issuance.netlify.app/issuance/**"
+from = "https://hpass-issuance.netlify.app/issuance/*"
 to = "https://temp-hpass.duckdns.org/issuance/:splat"
 status = 200
+force = true
 headers = { Access-Control-Allow-Origin = "*"}
 
 [[headers]]
