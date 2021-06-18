@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/api/**"
+from = "/issuance/**"
 to = "https://temp-hpass.duckdns.org/issuance/:splat"
 status = 200
 headers = { Access-Control-Allow-Origin = "*"}

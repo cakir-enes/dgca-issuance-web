@@ -24,7 +24,7 @@ import axios from 'axios';
 import { EUDGC } from '../generated-files/dgc-combined-schema';
 
 const api = axios.create({
-    baseURL: '/api',
+    baseURL: '/issuance',
     headers: {
         "Content-Type": "application/json"
     },
