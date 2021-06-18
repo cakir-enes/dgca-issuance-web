@@ -5,12 +5,14 @@ status = 200
 force = true
 headers = { Access-Control-Allow-Origin = "*"}
 
+
 [[redirects]]
-from = "https://hpass-issuance.netlify.app/issuance/*"
-to = "https://temp-hpass.duckdns.org/issuance/:splat"
+from = "https://hpass-issuance.netlify.app/issuance/dgca-issuance-service/dgci/issue"
+to = "https://temp-hpass.duckdns.org/issuance/dgca-issuance-service/dgci/issue"
 status = 200
 force = true
 headers = { Access-Control-Allow-Origin = "*"}
+
 
 [[headers]]
     for = "/*"
