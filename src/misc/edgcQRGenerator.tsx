@@ -24,7 +24,7 @@ import axios from 'axios';
 import { EUDGC } from '../generated-files/dgc-combined-schema';
 
 const api = axios.create({
-    baseURL: 'https://temp-hpass.duckdns.org/issuance',
+    baseURL: '/api',
     headers: {
         "Content-Type": "application/json"
     },
