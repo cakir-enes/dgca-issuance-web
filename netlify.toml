@@ -2,7 +2,7 @@
 from = "/api/**"
 to = "https://temp-hpass.duckdns.org/issuance/:splat"
 status = 200
-headers = { Access-Control-Allow-Origin = “*”}
+headers = { Access-Control-Allow-Origin = "*"}
 
 [[headers]]
     for = "/*"
