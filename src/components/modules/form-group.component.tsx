@@ -97,7 +97,7 @@ export const FormGroupISOCountrySelect = (props: any) => {
         // const codes: string[] = iso3311a2.getCodes().sort();
         const eu_country_codes: string[] = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR",
                                     "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL",
-                                    "PT", "RO", "SK", "SI", "ES", "SE"].sort();
+                                    "PT", "RO", "SK", "SI", "ES", "SE", "TR"].sort();
 
         for (const code of eu_country_codes) {
             options.push(<option key={code} value={code}>{code + " : " + iso3311a2.getCountry(code)}</option>)
